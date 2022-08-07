@@ -7,7 +7,8 @@
     "dev": "vite",
     "preinstall": "npx only-allow pnpm",
     "prepare": "is-ci || husky install",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "publish": "pnpm install && pnpm build"
   },
   "commitlint": {
     "extends": [
