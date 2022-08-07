@@ -10,10 +10,10 @@ function NFTPreview() {
     <div className="absolute bottom-0 top-0 left-0 right-0 bg-[hsl(217,54%,11%)]">
       <div className="container">
         <div className="flex min-h-screen items-center justify-center p-4">
-          <article className="shadow-[0_25px_50px_rgba(0, 0, 0, 0.0952917)] flex h-[596px] min-w-[325px] max-w-[350px] flex-col space-y-6 rounded-2xl bg-[#15263F] p-6 font-outfit">
+          <article className="shadow-[0_25px_50px_rgba(0, 0, 0, 0.0952917)] flex min-w-[325px] max-w-[350px] flex-col space-y-4 rounded-2xl bg-[#15263F] p-6 font-outfit sm:space-y-6">
             <Link
               to="#"
-              className="group mx-auto overflow-clip rounded-lg drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)]"
+              className="group mx-auto mb-2 overflow-clip rounded-lg drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)] sm:mb-0"
             >
               <figure className="relative aspect-square">
                 <img
@@ -27,7 +27,7 @@ function NFTPreview() {
                 </div>
               </figure>
             </Link>
-            <div className="space-y-4 text-left">
+            <div className="space-y-3 text-left sm:space-y-4">
               <Link
                 to="#"
                 className="text-xl font-semibold text-white hover:text-[#00FFF8]"
