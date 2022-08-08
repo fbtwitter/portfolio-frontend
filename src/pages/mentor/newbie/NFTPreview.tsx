@@ -11,6 +11,7 @@ function NFTPreview() {
       <div className="absolute bottom-0 top-0 left-0 right-0 bg-[hsl(217,54%,11%)]">
         <div className="container mx-auto">
           <div className="flex min-h-screen items-center justify-center p-4">
+            <h1 className="sr-only">NFT Preview Card Component</h1>
             <article className="shadow-[0_25px_50px_rgba(0, 0, 0, 0.0952917)] flex min-w-[325px] max-w-[350px] flex-col space-y-4 rounded-2xl bg-[#15263F] p-6 font-outfit sm:space-y-6">
               <Link
                 to="#"
