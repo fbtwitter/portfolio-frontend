@@ -8,6 +8,9 @@ module.exports = {
       fontFamily: {
         outfit: ["Outfit", ...defaultTheme.fontFamily.sans],
       },
+      fontSize: {
+        "1.5xl": ["1.375rem", "1.75rem"],
+      },
     },
   },
   plugins: [],

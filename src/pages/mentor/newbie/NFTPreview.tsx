@@ -30,13 +30,8 @@ function NFTPreview() {
                 </figure>
               </Link>
               <div className="space-y-3 text-left sm:space-y-4">
-                <h2>
-                  <Link
-                    to="#"
-                    className="text-xl font-semibold text-white hover:text-[#00FFF8]"
-                  >
-                    Equilibrium #3429
-                  </Link>
+                <h2 className="text-1.5xl font-semibold text-white hover:text-[#00FFF8]">
+                  <Link to="#">Equilibrium #3429</Link>
                 </h2>
                 <p className="text-lg font-light text-[#8BACD9]">
                   Our Equilibrium collection promotes balance and calm.
