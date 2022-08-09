@@ -7,6 +7,9 @@ function Newbie() {
       <Link to={"nft-preview"}>
         <span className="block">NFT Preview</span>
       </Link>
+      <Link to={"product-preview"}>
+        <span className="block">Product Preview</span>
+      </Link>
     </main>
   );
 }

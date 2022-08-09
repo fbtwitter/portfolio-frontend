@@ -3,6 +3,7 @@ import Home from "@/pages/Home";
 import Mentor from "@/pages/mentor";
 import Newbie from "@/pages/mentor/newbie";
 import NFTPreview from "@/pages/mentor/newbie/NFTPreview";
+import ProductPreview from "@/pages/mentor/newbie/ProductPreview";
 import NotFound from "@/pages/NotFound";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -17,6 +18,7 @@ const Router = () => {
             <Route path="newbie/">
               <Route index element={<Newbie />} />
               <Route path="nft-preview" element={<NFTPreview />} />
+              <Route path="product-preview" element={<ProductPreview />} />
             </Route>
           </Route>
           <Route path="*" element={<NotFound />} />

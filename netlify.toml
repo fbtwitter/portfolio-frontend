@@ -7,3 +7,8 @@
   from = "/mentor/newbie/nft-preview"
   to = "/mentor/newbie/nft-preview"
   status = 200
+
+[[redirects]]
+  from = "/mentor/newbie/product-preview"
+  to = "/mentor/newbie/product-preview"
+  status = 200
