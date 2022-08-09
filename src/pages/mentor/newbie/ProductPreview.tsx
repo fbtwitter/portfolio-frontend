@@ -34,7 +34,7 @@ function ProductPreview() {
                   <span className="mb-3 block font-montserrat text-xs font-medium uppercase tracking-[5px] text-[#6C7289] sm:mb-5">
                     Perfume
                   </span>
-                  <h2 className="mb-4 font-fraunces text-[2rem] font-bold leading-none text-[#1C232B] sm:mb-6">
+                  <h2 className="mb-4 font-fraunces text-4xl font-bold leading-none text-[#1C232B] sm:mb-6">
                     Gabrielle Essence Eau De Parfum
                   </h2>
                   <p className="font-montserrat text-sm font-medium leading-6 text-[#6C7289]">
@@ -43,7 +43,7 @@ function ProductPreview() {
                   </p>
                 </div>
                 <div className="mb-5 flex items-center space-x-5 sm:mb-7">
-                  <span className="bold font-fraunces text-[2rem] text-[#3D8168]">
+                  <span className="bold font-fraunces text-4xl text-[#3D8168]">
                     $149.99
                   </span>
                   <span className="font-montserrat text-sm font-medium text-[#6C7289] line-through">
