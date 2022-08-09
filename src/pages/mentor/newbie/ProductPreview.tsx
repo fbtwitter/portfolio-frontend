@@ -32,9 +32,9 @@ function ProductPreview() {
                   <span className="mb-3 block font-montserrat text-xs font-medium uppercase tracking-[5px] text-[#6C7289] sm:mb-5">
                     Perfume
                   </span>
-                  <span className="mb-4 block font-fraunces text-[2rem] font-bold leading-none text-[#1C232B] sm:mb-5">
+                  <h2 className="mb-4 block font-fraunces text-[2rem] font-bold leading-none text-[#1C232B] sm:mb-5">
                     Gabrielle Essence Eau De Parfum
-                  </span>
+                  </h2>
                   <span className="font-montserrat text-sm font-medium leading-6 text-[#6C7289]">
                     A floral, solar and voluptuous interpretation composed by
                     Olivier Polge, Perfumer-Creator for the House of CHANEL.
